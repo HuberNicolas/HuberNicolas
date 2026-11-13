@@ -31,7 +31,7 @@ one (see the heart disease rewrite below).
 class NicolasHuber:
     role     = "IT trainee, data engineering & ML"
     employer = "Migros-Genossenschafts-Bund"
-    rotation = "Digitec Galaxus, product development"   # current station
+    rotation = "Digitec Galaxus, data team"   # current station
     degree   = "MSc Informatics, UZH"
     focus    = ["data pipelines", "ML in production", "visual analytics"]
 ```
@@ -39,7 +39,7 @@ class NicolasHuber:
 ## `> git log --oneline`
 
 ```text
-2026  digitec-galaxus  product development team: moving ML models to a new Airflow platform
+2026  digitec-galaxus  data team: moving ML models to a new Airflow platform
 2026  migros-bank      dbt + Dagster pipeline on OpenShift, workshops on dbt, data products and Git
 2025  mgb-data         aggregation layer for model training, built as a dbt pipeline on Google Cloud
 2025  msc-uzh          thesis: SDG Tag Heroes, graded 6.0
