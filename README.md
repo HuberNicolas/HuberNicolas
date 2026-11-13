@@ -51,21 +51,37 @@ class NicolasHuber:
 
 ## `> featured work`
 
+### `live` &nbsp;you can open these right now
+
 | Project | What it is |
 | --- | --- |
-| **[sdg-tag-heroes](https://github.com/HuberNicolas/sdg-tag-heroes)** | Researchers label papers by UN Sustainable Development Goal: a model suggests, players vote and decide. Covers the whole chain from harvesting publications over embeddings and a vector database to the API and a D3 frontend. Master's thesis, 2025; the thesis state lives on the [`thesis`](https://github.com/HuberNicolas/sdg-tag-heroes/tree/thesis) branch. `Nuxt` `D3` `FastAPI` `Qdrant` |
-| **[MTDStrategySelectionAgent](https://github.com/HuberNicolas/MTDStrategySelectionAgent)** | An agent on small IoT devices reads system metrics and picks the Moving Target Defense that fits the malware it sees. Bachelor's thesis, [IEEE paper](https://ieeexplore.ieee.org/document/10224824) 2023. `Python` `IoT security` |
+| **[SDG Tag Heroes](https://github.com/HuberNicolas/sdg-tag-heroes)** · [open the app](https://frontend-qluali6siqmkdt9wqr0q9jbd.169.58.124.58.sslip.io/) | Researchers label papers by UN Sustainable Development Goal: a model suggests, players vote and decide. Covers the whole chain from harvesting publications over embeddings and a vector database to the API and a D3 frontend. Master's thesis, 2025, graded 6.0; the thesis state lives on the [`thesis`](https://github.com/HuberNicolas/sdg-tag-heroes/tree/thesis) branch. Runs on my own server ([infrastructure](https://github.com/HuberNicolas/infrastructure)). `Nuxt` `D3` `FastAPI` `Qdrant` |
+| **[Towers vs. Monsters](https://github.com/HuberNicolas/tower-defense-remastered)** · [play it](https://hubernicolas.github.io/tower-defense-remastered/) | A tower defense game where every tower fires in one straight line, so where you put it and which way it faces decides everything. 30 rounds with boss waves. Remake of our 2021 software engineering lab project, which needed a Java server and a fixed window; this one runs in the browser, on desktop and phone. `React` `TypeScript` `Canvas` |
+| **[OkCupid Explorer](https://github.com/HuberNicolas/okcupid-explorer)** · [live demo](https://hubernicolas.github.io/okcupid-explorer/) | Answer a dating questionnaire and see where you land among 842 OkCupid profiles. Cosine similarity, PCA and k-means run in the browser. Group project 2022, rebuilt 2026. `Vue` `TypeScript` `ECharts` |
+
+<p align="center">
+  <a href="https://hubernicolas.github.io/tower-defense-remastered/"><img src="https://raw.githubusercontent.com/HuberNicolas/tower-defense-remastered/main/docs/images/game.png" alt="Towers vs. Monsters: plant towers shooting along the path at a wave of monsters" width="620"></a>
+</p>
+
+### `data & ml`
+
+| Project | What it is |
+| --- | --- |
 | **[heart-disease-risk-factors-uzh](https://github.com/HuberNicolas/heart-disease-risk-factors-uzh)** | Our first data science project from 2021, rewritten in 2026. The rewrite found target leakage in the original: without it, the models barely beat the baseline. `scikit-learn` `pandas` |
-| **[okcupid-explorer](https://github.com/HuberNicolas/okcupid-explorer)** | Answer a dating questionnaire and see where you land among 842 OkCupid profiles. Cosine similarity, PCA and k-means run in the browser. [Live demo](https://hubernicolas.github.io/okcupid-explorer/). Group project 2022, rebuilt 2026. `Vue` `TypeScript` `ECharts` |
 | **[sdg-classifier](https://github.com/HuberNicolas/sdg-classifier)** | DistilBERT fine-tuned for multi-label SDG classification of abstracts, with full fine-tuning or LoRA. Built for the thesis in 2024, rebuilt as a package in 2026 with a fix for the class weights. `PyTorch` `Transformers` |
 | **[academia-maestro](https://github.com/HuberNicolas/academia-maestro)** | Asks a folder of research papers the same questions and turns the answers into a comparison table for a literature review. Works with ChatPDF, Claude or a local model through Ollama. `Python` `LLM` |
 
-Also here: [infrastructure](https://github.com/HuberNicolas/infrastructure) (how I host my projects),
-[docker-dbs](https://github.com/HuberNicolas/docker-dbs),
-[gaia-classifier](https://github.com/HuberNicolas/gaia-classifier),
-[tower-defense-remastered](https://github.com/HuberNicolas/tower-defense-remastered) ([play it](https://hubernicolas.github.io/tower-defense-remastered/)),
-[network-science-uzh](https://github.com/HuberNicolas/network-science-uzh),
-[numerical-methods-uzh](https://github.com/HuberNicolas/numerical-methods-uzh).
+### `academia`
+
+| Project | What it is |
+| --- | --- |
+| **[MTDStrategySelectionAgent](https://github.com/HuberNicolas/MTDStrategySelectionAgent)** | An agent on small IoT devices reads system metrics and picks the Moving Target Defense that fits the malware it sees. Bachelor's thesis, published as an [IEEE paper](https://ieeexplore.ieee.org/document/10224824) in 2023. `Python` `IoT security` |
+| **[network-science-uzh](https://github.com/HuberNicolas/network-science-uzh)** | Four graded assignments from the Network Science course: centralities, community detection, null models and epidemics on networks. UZH, 2023. `NetworkX` `Jupyter` |
+| **[numerical-methods-uzh](https://github.com/HuberNicolas/numerical-methods-uzh)** | The classic numerical methods, from root finding to numerical integration, each written from scratch as a MATLAB function. UZH, 2020. `MATLAB` |
+| **[gaia-classifier](https://github.com/HuberNicolas/gaia-classifier)** | Sorts Gaia DR3 stars by spectral class: feature sets by decision-tree importance, then a cross-validated grid search over ten classifiers. Class Kaggle competition at UTS Sydney, 2024. `scikit-learn` |
+
+Also here: [infrastructure](https://github.com/HuberNicolas/infrastructure) (one VPS, Coolify, images built in GitHub Actions)
+and [docker-dbs](https://github.com/HuberNicolas/docker-dbs) (six databases for local development, one command).
 
 ## `> toolbox`
 
