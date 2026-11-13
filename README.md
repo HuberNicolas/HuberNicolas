@@ -39,13 +39,13 @@ class NicolasHuber:
 ## `> git log --oneline`
 
 ```text
-2026  digitec-galaxus  product development team: migrating ML models
+2026  digitec-galaxus  product development team: moving ML models to a new Airflow platform
 2026  migros-bank      dbt + Dagster pipeline on OpenShift, workshops on dbt, data products and Git
 2025  mgb-data         aggregation layer for model training, built as a dbt pipeline on Google Cloud
 2025  msc-uzh          thesis: SDG Tag Heroes, graded 6.0
 2024  uts-sydney       exchange semester: UNIX systems, data science, cyber security
 2023  ivda-uzh         research assistant: visual analytics prototypes with FastAPI, Qdrant, Vue, D3
-2023  ieee             my bachelor's thesis contributed to a paper on Moving Target Defense
+2023  ieee             co-author of a paper on Moving Target Defense, from my bachelor's thesis
 2021  novu             junior web developer: Symfony apps, an internal ERP, courses for apprentices
 ```
 
@@ -75,7 +75,7 @@ class NicolasHuber:
 
 | Project | What it is |
 | --- | --- |
-| **[MTDStrategySelectionAgent](https://github.com/HuberNicolas/MTDStrategySelectionAgent)** | An agent on small IoT devices reads system metrics and picks the Moving Target Defense that fits the malware it sees. Bachelor's thesis, which contributed to an [IEEE paper](https://ieeexplore.ieee.org/document/10224824) in 2023. `Python` `IoT security` |
+| **[MTDStrategySelectionAgent](https://github.com/HuberNicolas/MTDStrategySelectionAgent)** | An agent on small IoT devices reads system metrics and picks the Moving Target Defense that fits the malware it sees. Bachelor's thesis; I'm co-author of the resulting [IEEE paper](https://ieeexplore.ieee.org/document/10224824) (2023). `Python` `IoT security` |
 | **[network-science-uzh](https://github.com/HuberNicolas/network-science-uzh)** | Four graded assignments from the Network Science course: centralities, community detection, null models and epidemics on networks. UZH, 2023. `NetworkX` `Jupyter` |
 | **[numerical-methods-uzh](https://github.com/HuberNicolas/numerical-methods-uzh)** | The classic numerical methods, from root finding to numerical integration, each written from scratch as a MATLAB function. UZH, 2020. `MATLAB` |
 | **[gaia-classifier](https://github.com/HuberNicolas/gaia-classifier)** | Sorts Gaia DR3 stars by spectral class: feature sets by decision-tree importance, then a cross-validated grid search over ten classifiers. Class Kaggle competition at UTS Sydney, 2024. `scikit-learn` |
@@ -88,13 +88,13 @@ and [docker-dbs](https://github.com/HuberNicolas/docker-dbs) (six databases for 
 **Languages**
 &nbsp;![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 
 **Data & ML**
 &nbsp;![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square)
 ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat-square)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -102,7 +102,6 @@ and [docker-dbs](https://github.com/HuberNicolas/docker-dbs) (six databases for 
 
 **Web**
 &nbsp;![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white)
