@@ -31,7 +31,7 @@ one (see the heart disease rewrite below).
 class NicolasHuber:
     role     = "IT trainee, data engineering & ML"
     employer = "Migros-Genossenschafts-Bund"
-    rotation = "Digitec Galaxus, data team"   # current station
+    rotation = "Digitec Galaxus, product development"   # current station
     degree   = "MSc Informatics, UZH"
     focus    = ["data pipelines", "ML in production", "visual analytics"]
 ```
@@ -39,13 +39,13 @@ class NicolasHuber:
 ## `> git log --oneline`
 
 ```text
-2026  digitec-galaxus  move ML classifiers to a new Airflow platform
+2026  digitec-galaxus  product development team: migrating ML models
 2026  migros-bank      dbt + Dagster pipeline on OpenShift, workshops on dbt, data products and Git
 2025  mgb-data         aggregation layer for model training, built as a dbt pipeline on Google Cloud
 2025  msc-uzh          thesis: SDG Tag Heroes, graded 6.0
 2024  uts-sydney       exchange semester: UNIX systems, data science, cyber security
 2023  ivda-uzh         research assistant: visual analytics prototypes with FastAPI, Qdrant, Vue, D3
-2023  ieee             paper on Moving Target Defense, from my bachelor's thesis
+2023  ieee             my bachelor's thesis contributed to a paper on Moving Target Defense
 2021  novu             junior web developer: Symfony apps, an internal ERP, courses for apprentices
 ```
 
@@ -75,7 +75,7 @@ class NicolasHuber:
 
 | Project | What it is |
 | --- | --- |
-| **[MTDStrategySelectionAgent](https://github.com/HuberNicolas/MTDStrategySelectionAgent)** | An agent on small IoT devices reads system metrics and picks the Moving Target Defense that fits the malware it sees. Bachelor's thesis, published as an [IEEE paper](https://ieeexplore.ieee.org/document/10224824) in 2023. `Python` `IoT security` |
+| **[MTDStrategySelectionAgent](https://github.com/HuberNicolas/MTDStrategySelectionAgent)** | An agent on small IoT devices reads system metrics and picks the Moving Target Defense that fits the malware it sees. Bachelor's thesis, which contributed to an [IEEE paper](https://ieeexplore.ieee.org/document/10224824) in 2023. `Python` `IoT security` |
 | **[network-science-uzh](https://github.com/HuberNicolas/network-science-uzh)** | Four graded assignments from the Network Science course: centralities, community detection, null models and epidemics on networks. UZH, 2023. `NetworkX` `Jupyter` |
 | **[numerical-methods-uzh](https://github.com/HuberNicolas/numerical-methods-uzh)** | The classic numerical methods, from root finding to numerical integration, each written from scratch as a MATLAB function. UZH, 2020. `MATLAB` |
 | **[gaia-classifier](https://github.com/HuberNicolas/gaia-classifier)** | Sorts Gaia DR3 stars by spectral class: feature sets by decision-tree importance, then a cross-validated grid search over ten classifiers. Class Kaggle competition at UTS Sydney, 2024. `scikit-learn` |
@@ -95,7 +95,6 @@ and [docker-dbs](https://github.com/HuberNicolas/docker-dbs) (six databases for 
 **Data & ML**
 &nbsp;![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square)
 ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat-square)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
